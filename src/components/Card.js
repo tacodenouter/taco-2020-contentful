@@ -6,10 +6,12 @@ import Img from 'gatsby-image'
 const Post = styled.li`
   position: relative;
   border: 1px solid ${props => props.theme.colors.secondary};
-  border-radius: 2px;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
   margin: 0 0 1em 0;
   width: 100%;
-  transition: background 0.2s;
+  transition: all .2s ease-in;
   @media screen and (min-width: ${props => props.theme.responsive.small}) {
     flex: ${props => (props.featured ? '0 0 100%' : '0 0 49%')};
     margin: 0 0 2vw 0;
@@ -18,7 +20,8 @@ const Post = styled.li`
     flex: ${props => (props.featured ? '0 0 100%' : '0 0 32%')};
   }
   &:hover {
-    background: ${props => props.theme.colors.tertiary};
+    background: ${props => props.theme.colors.white};
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
   }
   a {
     display: flex;
@@ -38,9 +41,9 @@ const Post = styled.li`
 `
 
 const Title = styled.h2`
+  font-family: 'Gopher-Medium';
   font-size: 1.5em;
-  font-weight: 600;
-  text-transform: capitalize;
+  font-weight: 300;
   margin: 1rem 1rem 0.5rem 1rem;
 `
 

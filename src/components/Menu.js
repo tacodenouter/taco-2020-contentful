@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const Header = styled.header`
-  background: ${props => props.theme.colors.base};
+  background: ${props => props.theme.colors.menu};
   width: 100%;
   padding: 1.5em 0;
 `
@@ -30,18 +30,19 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: DarkGray;
+    color: black;
     font-weight: 600;
     transition: all 0.2s;
     border-bottom: 2px solid ${props => props.theme.colors.base};
     &:hover {
-      color: white;
+      color: black;
     }
   }
 `
 
 const activeLinkStyle = {
-  color: 'white',
+  color: 'black',
+  textDecoration: 'none',
 }
 
 const Menu = () => {
