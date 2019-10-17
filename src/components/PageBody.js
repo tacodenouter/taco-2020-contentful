@@ -12,17 +12,6 @@ const Body = styled.div`
     font-weight: 300;
     line-height: 1.25;
     margin: 0 0 1rem 0;
-    text-transform: uppercase;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-  h2 {
-    font-size: 1.25em;
-  }
-  h3 {
-    font-size: 1em;
   }
 
   p {
@@ -76,7 +65,7 @@ const Body = styled.div`
   }
 
   hr {
-    border-style: solid;
+    border-style: 1px solid;
     border-color: ${props => props.theme.colors.secondary};
     margin: 0 0 2em 0;
   }

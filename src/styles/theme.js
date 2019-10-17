@@ -2,7 +2,7 @@ const theme = {
   colors: {
     black: '#000',
     base: '#121212', // Black
-    secondary: '#e9e9e9', // Medium Gray
+    secondary: '#f1eee62e', // Medium Gray
     tertiary: '#f5eeda', // Light Gray
     highlight: '#5b8bf7', // Light Blue
     white: '#fff',
@@ -10,7 +10,7 @@ const theme = {
   },
   sizes: {
     maxWidth: '1050px',
-    maxWidthCentered: '650px',
+    maxWidthCentered: '700px',
   },
   responsive: {
     small: '35em',

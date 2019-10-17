@@ -24,7 +24,7 @@ const Index = ({ data, pageContext }) => {
         </Helmet>
       )}
       <Container>
-        <h1>Hi there! I am a digital designer</h1>
+        <h1 class="home">Hi there!<br />I am a digital designer</h1>
         {isFirstPage ? (
           <CardList>
             <Card {...featuredPost} featured />

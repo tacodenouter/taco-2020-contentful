@@ -37,6 +37,10 @@ const Post = styled.li`
         padding-bottom: ${props => (props.featured ? '40%' : '60%')};
       }
     }
+    p {
+      font-size: 1rem;
+      padding-bottom: 1.4rem;
+    }
   }
 `
 
@@ -78,7 +82,6 @@ const Card = ({
       <Link to={`/${slug}/`}>
         <Img fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
         <Title>{title}</Title>
-        <Date>{publishDate}</Date>
         <ReadingTime>{timeToRead} min read</ReadingTime>
         <Excerpt
           dangerouslySetInnerHTML={{

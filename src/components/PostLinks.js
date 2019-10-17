@@ -16,8 +16,11 @@ const Box = styled.div`
   a {
     background: ${props => props.theme.colors.base};
     color: white;
-    padding: 1em;
-    border-radius: 2px;
+    padding: 1em 1.6em .9em 1.6em;;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: .9rem;
     text-decoration: none;
     transition: 0.2s;
     &:hover {

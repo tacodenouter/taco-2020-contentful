@@ -33,7 +33,6 @@ const Nav = styled.nav`
     color: black;
     font-weight: 600;
     transition: all 0.2s;
-    border-bottom: 2px solid ${props => props.theme.colors.base};
     &:hover {
       color: black;
     }
