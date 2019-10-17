@@ -88,16 +88,12 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: #f5eeda;
     line-height: 1;
-    font-size: 100%;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     font-weight: 400;
+    font-size: 1.2rem;
     font-family: 'Fabrikat-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
-
-  .em,.italic {
-    font-family: 'Recoleta-RegularDEMO';
   }
 
   h1 {
@@ -110,7 +106,7 @@ const GlobalStyle = createGlobalStyle`
 
   h1.home {
     font-size: 12em;
-    color: #af0b75;
+    color: #ffb2e4;
   }
 
   h2 {
@@ -123,10 +119,6 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Gopher-Medium';
     font-size: 1.6rem;
     font-weight: 700;
-  }
-
-  p {
-    font-size: 1.25rem;
   }
 
   img {

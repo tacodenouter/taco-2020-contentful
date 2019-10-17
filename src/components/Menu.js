@@ -6,6 +6,10 @@ const Header = styled.header`
   background: ${props => props.theme.colors.menu};
   width: 100%;
   padding: 1.5em 0;
+
+  .logo {
+    width: 10%;
+  }
 `
 const Nav = styled.nav`
   width: 100%;
@@ -16,6 +20,7 @@ const Nav = styled.nav`
   ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   li {
@@ -30,6 +35,9 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .8em;
     color: black;
     font-weight: 600;
     transition: all 0.2s;
@@ -51,7 +59,7 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" activeStyle={activeLinkStyle}>
-              Home
+              <img src="../logos/logo.svg" className='logo' />
             </Link>
           </li>
           <li>

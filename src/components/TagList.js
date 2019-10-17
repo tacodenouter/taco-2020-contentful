@@ -13,16 +13,18 @@ const Tag = styled.li`
   margin: 0 0.25em 0.25em 0;
   a {
     float: left;
+    font-size: .8em;
     transition: 0.2s;
     background: ${props => props.theme.colors.tertiary};
-    padding: 0.5em;
+    padding: 0.5em 0.9em 0.3em;
     border-radius: 2px;
     text-transform: uppercase;
+    letter-spacing: .07em;
     text-decoration: none;
-    color: ${props => props.theme.colors.base};
-    border: 1px solid ${props => props.theme.colors.secondary};
+    color: ${props => props.theme.colors.highlight};
+    border: 1px solid ${props => props.theme.colors.highlight};
     &:hover {
-      background: ${props => props.theme.colors.secondary};
+      background: ${props => props.theme.colors.white};
     }
   }
 `

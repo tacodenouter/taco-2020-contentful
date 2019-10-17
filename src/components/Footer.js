@@ -7,7 +7,9 @@ const Wrapper = styled.footer`
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 auto;
-  max-width: ${props => props.theme.sizes.maxWidth};
+  max-width: 100%;
+  background: ${props => props.theme.colors.white};
+  margin-top: 60px;
 `
 
 const List = styled.ul`
@@ -16,12 +18,12 @@ const List = styled.ul`
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  border-top: 1px solid ${props => props.theme.colors.secondary};
   padding: 1em 0 2em;
   margin: 0 1.5em;
 `
 
 const Item = styled.li`
+  font-size: 0.7em;
   display: inline-block;
   padding: 0.25em 0;
   width: 100%;
@@ -31,6 +33,7 @@ const Item = styled.li`
   a {
     font-weight: 600;
     transition: all 0.2s;
+    text-decoration: none;
     color: ${props => props.theme.colors.base};
     &:hover {
       color: ${props => props.theme.colors.highlight};

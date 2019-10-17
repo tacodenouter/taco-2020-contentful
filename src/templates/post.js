@@ -32,7 +32,7 @@ const PostTemplate = ({ data, pageContext }) => {
       </Helmet>
       <SEO pagePath={slug} postNode={postNode} postSEO />
 
-      <Hero title={title} image={heroImage} height={'50vh'} />
+      <Hero title={title} image={heroImage} height={'60vh'} />
 
       <Container>
         {tags && <TagList tags={tags} />}

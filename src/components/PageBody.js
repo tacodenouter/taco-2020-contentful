@@ -71,15 +71,17 @@ const Body = styled.div`
   }
 
   blockquote {
-    font-style: italic;
+    font-family: 'Recoleta-RegularDEMO';
+    font-size: 1.7em;
     border-left: 4px solid ${props => props.theme.colors.secondary};
     padding: 0 0 0 0.5em;
   }
 
   pre {
     margin: 0 0 2em 0;
-    border-radius: 2px;
-    background: ${props => props.theme.colors.secondary} !important;
+    border-radius: 8px;
+    font-size: 0.6em;
+    background: ${props => props.theme.colors.white} !important;
     span {
       background: inherit !important;
     }

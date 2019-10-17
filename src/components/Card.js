@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 
 const Post = styled.li`
   position: relative;
-  border: 1px solid ${props => props.theme.colors.secondary};
   border-radius: 10px;
   background: #fff;
   overflow: hidden;
