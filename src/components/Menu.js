@@ -8,7 +8,7 @@ const Header = styled.header`
   padding: 1.5em 0;
 
   .logo {
-    width: 10%;
+    max-width: 60px;
   }
 `
 const Nav = styled.nav`

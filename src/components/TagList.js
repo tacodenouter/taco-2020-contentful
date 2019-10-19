@@ -15,7 +15,7 @@ const Tag = styled.li`
     float: left;
     font-size: .6em;
     transition: 0.2s;
-    background: ${props => props.theme.colors.tertiary};
+    background: none;
     padding: 0.5em 0.9em 0.3em;
     border-radius: 2px;
     text-transform: uppercase;

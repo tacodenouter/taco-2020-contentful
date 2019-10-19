@@ -105,9 +105,10 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h1.home {
-    font-size: 12em;
+    font-size: 9em;
     color: #ffb2e4;
   }
+
 
   h2 {
     font-family: 'Gopher-Medium';

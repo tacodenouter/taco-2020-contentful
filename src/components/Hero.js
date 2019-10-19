@@ -48,6 +48,9 @@ const Title = styled.h1`
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  @media (max-width: ${props => props.theme.responsive.small}) {
+    font-size: 8em;
+  }
 `
 
 const Hero = props => (
