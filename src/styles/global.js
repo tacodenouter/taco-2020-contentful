@@ -111,14 +111,20 @@ const GlobalStyle = createGlobalStyle`
 
   h2 {
     font-family: 'Gopher-Medium';
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: 700;
   }
 
   h3 {
     font-family: 'Gopher-Medium';
-    font-size: 1.6rem;
+    font-size: 1.6em;
     font-weight: 700;
+  }
+
+  h6 {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
   }
 
   img {

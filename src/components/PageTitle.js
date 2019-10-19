@@ -2,8 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Title = styled.h1`
-  font-size: ${props => (props.small ? '10em' : '12em')};
-  text-transform: uppercase;
+  font-family: 'Recoleta-RegularDEMO';
+  font-size: ${props => (props.small ? '3em' : '4em')};
+  text-transform: none;
   font-weight: 300;
   text-align: center;
   margin: 0 0 3rem 0;

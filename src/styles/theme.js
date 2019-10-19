@@ -2,6 +2,7 @@ const theme = {
   colors: {
     black: '#000',
     base: '#121212', // Black
+    lightGrey: 'rgba(0,0,0,0.15)',
     secondary: '#ffc52a', // Orange
     tertiary: '#f5eeda', // Light Gray
     highlight: '#5b8bf7', // Light Blue

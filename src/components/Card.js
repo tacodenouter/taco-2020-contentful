@@ -56,8 +56,11 @@ const Date = styled.h3`
 `
 
 const ReadingTime = styled.h4`
+  font-size: 0.6em;
   margin: 0 1rem 1.5rem 1rem;
   color: gray;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
 `
 
 const Excerpt = styled.p`

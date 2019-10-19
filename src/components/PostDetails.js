@@ -9,20 +9,20 @@ const Wrapper = styled.div`
   }
 `
 
-const Date = styled.p`
+const Date = styled.h6`
   display: inline-block;
 `
 
-const ReadingTime = styled.p`
+const ReadingTime = styled.h6`
   display: inline-block;
 `
 
 const PostDetails = props => {
   return (
     <Wrapper>
-      <Date>📅 {props.date}</Date>
-      <span>•</span>
-      <ReadingTime>{`⏱️${props.timeToRead} min read `}</ReadingTime>
+      <Date>🍭 {props.date}</Date>
+      <span></span>
+      <ReadingTime>{`📚${props.timeToRead} min read `}</ReadingTime>
     </Wrapper>
   )
 }

@@ -66,7 +66,7 @@ const Body = styled.div`
 
   hr {
     border-style: 1px solid;
-    border-color: ${props => props.theme.colors.secondary};
+    border-color: ${props => props.theme.colors.lightGrey};
     margin: 0 0 2em 0;
   }
 
@@ -80,7 +80,6 @@ const Body = styled.div`
   pre {
     margin: 0 0 2em 0;
     border-radius: 8px;
-    font-size: 0.6em;
     background: ${props => props.theme.colors.white} !important;
     span {
       background: inherit !important;
