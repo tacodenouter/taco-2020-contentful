@@ -6,6 +6,17 @@ const Wrapper = styled.div`
   margin: -2em 0 0 0;
   padding: 0 1.5em 2em;
   background: ${props => props.theme.colors.tertiary};
+
+  h6 {
+    font-family: 'Fabrikat-Regular';
+    text-transform: none;
+    letter-spacing: 0;
+    color: ${props => props.theme.colors.secondary};
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+    border-top: 1px solid ${props => props.theme.colors.bgDarker}
+    }
 `
 
 const Box = styled.div`
@@ -45,6 +56,7 @@ const NextLink = styled(Link)`
 const PostLinks = props => {
   return (
     <Wrapper>
+      <h6>Check out some other projects I've done...</h6>
       <Box>
         {props.previous && (
           <PreviousLink to={`/${props.previous.slug}/`}>
