@@ -8,7 +8,8 @@ const Wrapper = styled.div`
   background: ${props => props.theme.colors.tertiary};
 
   h6 {
-    font-family: 'Fabrikat-Regular';
+    font-family: 'Recoleta-RegularDEMO';
+    font-size: .8em;
     text-transform: none;
     letter-spacing: 0;
     color: ${props => props.theme.colors.secondary};

@@ -5,7 +5,7 @@ const theme = {
     link: '#4c00ff',
     linkHover: '#d921f9',
     lightGrey: 'rgba(0,0,0,0.15)',
-    secondary: '#1cb7b1', // Green
+    secondary: '#7e2ff9', // Green
     tertiary: '#f1f0ea', // Background 
     bgDarker: '#e8e6d8', // Background, but a bit darker
     highlight: '#5b8bf7', // Light Blue
@@ -13,8 +13,8 @@ const theme = {
     menu: '#ffb2e4', // Pink
   },
   sizes: {
-    maxWidth: '1050px',
-    maxWidthCentered: '700px',
+    maxWidth: '1100px',
+    maxWidthCentered: '650px',
   },
   responsive: {
     small: '35em',
