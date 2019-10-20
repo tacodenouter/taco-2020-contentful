@@ -49,7 +49,7 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://www.contentful.com/"
+          href="https://www.tacodenouter.com/"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >

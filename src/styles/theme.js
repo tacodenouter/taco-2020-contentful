@@ -1,10 +1,10 @@
 const theme = {
   colors: {
     black: '#000',
-    base: '#121212', // Black
+    base: '#242424', // Black
     lightGrey: 'rgba(0,0,0,0.15)',
     secondary: '#ffc52a', // Orange
-    tertiary: '#f5eeda', // Light Gray 
+    tertiary: '#f1f0ea', // Background 
     highlight: '#5b8bf7', // Light Blue
     white: '#fff',
     menu: '#ffb2e4', // Pink

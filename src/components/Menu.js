@@ -59,7 +59,7 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" activeStyle={activeLinkStyle}>
-              <img src="../logos/logo.svg" className='logo' />
+              <img src="../logos/logo.svg" className='logo' alt="Taco den Outer" />
             </Link>
           </li>
           <li>

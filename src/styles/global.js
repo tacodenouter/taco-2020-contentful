@@ -33,6 +33,7 @@ const GlobalStyle = createGlobalStyle`
   /* Added to Fix Footer to bottom of viewport */
   html, body {
     height: 100%;
+    background: #f1f0ea;
   }
   .siteRoot {
     height: 100vh;
@@ -86,7 +87,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #f5eeda;
     line-height: 1;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
@@ -108,7 +108,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 9em;
     color: #ffb2e4;
   }
-
 
   h2 {
     font-family: 'Gopher-Medium';

@@ -57,25 +57,25 @@ Edit [`/src/utils/siteConfig.js`](https://github.com/ryanwiemer/gatsby-starter-g
 
 ```js
 module.exports = {
-  siteTitle: 'GCN',
-  siteTitleAlt: 'GCN Gatsby Starter',
-  publisher: 'Publisher named GCN',
+  siteTitle: 'Taco den Outer',
+  siteTitleAlt: 'Taco den Outer',
+  publisher: 'Taco den Outer',
   siteDescription:
-    'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
-  siteUrl: 'https://gcn.netlify.com',
-  postsPerHomePage: 7,
+    'I am a Digital Product Designer with experience leading teams in London and Hong Kong. In my designs I try to combine user needs, business goals and brand values effectively into high fidelity prototypes that aim to increase value to both user and business. I use Sketch, Framer X and CSS daily as well as a bunch of other design and production tools like After Effects, Affinity, ProCreate, Jira, Gsuite, Abstract, GitHub etc.',
+  siteUrl: 'https://www.tacodenouter.com',
+  postsPerHomePage: 9,
   postsPerPage: 6,
-  author: 'GCN User',
-  authorUrl: 'https://gcn.netlify.com/about/',
-  userTwitter: '@twitter',
-  shortTitle: 'GCN App',
+  author: 'Taco den Outer',
+  authorUrl: 'https://www.tacodenouter.com',
+  userTwitter: '@tacodenouter',
+  shortTitle: 'Taco den Outer — Digital Product Designer',
   shareImage: '/logos/share.jpg',
   shareImageWidth: 900,
   shareImageHeight: 600,
-  siteLogo: '/logos/logo-512.png',
-  backgroundColor: '#e9e9e9',
+  siteLogo: '/logos/favicon.png',
+  backgroundColor: '#f1f0ea',
   themeColor: '#121212',
-  copyright: 'Copyright © 2018 GCN User',
+  copyright: 'Copyright © 2020 Taco den Outer',
 }
 ```
 
