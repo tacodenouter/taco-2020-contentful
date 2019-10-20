@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 require('prismjs/themes/prism.css')
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-
 
 const Body = styled.div`
   margin: 0 auto;

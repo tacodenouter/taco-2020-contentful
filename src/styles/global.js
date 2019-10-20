@@ -109,10 +109,36 @@ const GlobalStyle = createGlobalStyle`
   }
 
   @media only screen and (max-width: 768px) {
-  h1.home {
-    font-size: 9em;
+    h1.home {
+      font-size: 9em;
+    }
   }
-}
+
+  h1.awesome {
+    color: #ffb2e4;
+    -webkit-animation: colorchange 20s infinite alternate;      
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      color: #ffb2e4;
+    }     
+    20% {
+      color: #5b8bf7;
+    }
+    40% { 
+      color: #4c00ff;
+    }
+    60% { 
+      color: #d921f9;
+    }
+    80% { 
+      color: #2980b9;
+    }
+    100% { 
+      color: #ffb2e4;
+    }
+  }
 
   h2 {
     font-family: 'Gopher-Medium';
