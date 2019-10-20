@@ -32,7 +32,7 @@ const PostTemplate = ({ data, pageContext }) => {
       </Helmet>
       <SEO pagePath={slug} postNode={postNode} postSEO />
 
-      <Hero title={title} image={heroImage} height={'60vh'} />
+      <Hero title={title} image={heroImage} height={'70vh'} />
 
       <Container>
         {tags && <TagList tags={tags} />}
@@ -57,7 +57,7 @@ export const query = graphql`
           content
         }
       }
-      publishDate(formatString: "MMMM DD, YYYY")
+      publishDate(formatString: "YYYY")
       publishDateISO: publishDate(formatString: "YYYY-MM-DD")
       tags {
         title

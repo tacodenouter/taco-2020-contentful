@@ -11,7 +11,7 @@ const BgImg = styled(Img)`
   top: 0;
   left: 0;
   width: 100%;
-  z-index: -1;
+  z-index: 0;
   min-height: 300px;
   height: auto;
   @media (min-width: ${props => props.theme.responsive.small}) {
@@ -23,7 +23,7 @@ const BgImg = styled(Img)`
   }
   &::before {
     content: '';
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 0;
     left: 0;

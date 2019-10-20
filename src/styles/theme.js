@@ -1,7 +1,9 @@
 const theme = {
   colors: {
     black: '#000',
-    base: '#242424', // Black
+    base: 'rgba(0,0,0,.9)', // Black
+    link: '#4c00ff',
+    linkHover: '#d921f9',
     lightGrey: 'rgba(0,0,0,0.15)',
     secondary: '#ffc52a', // Orange
     tertiary: '#f1f0ea', // Background 

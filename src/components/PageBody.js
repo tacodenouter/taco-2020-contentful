@@ -15,15 +15,18 @@ const Body = styled.div`
   }
 
   p {
+    color: ${props => props.theme.colors.base};
     line-height: 1.6;
     margin: 0 0 2em 0;
+    font-weight: 400;
   }
 
   a {
     transition: 0.2s;
-    color: ${props => props.theme.colors.base};
+    text-decoration: none;
+    color: ${props => props.theme.colors.link};
     &:hover {
-      color: ${props => props.theme.colors.highlight};
+      color: ${props => props.theme.colors.linkHover};
     }
   }
 
