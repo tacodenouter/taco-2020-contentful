@@ -1,16 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
 require('prismjs/themes/prism.css')
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
 
 const Body = styled.div`
   margin: 0 auto;
   max-width: ${props => props.theme.sizes.maxWidthCentered};
 
   h1,
-  h2,
-  h3 {
+  h2 {
     font-weight: 300;
-    line-height: 1.25;
+    line-height: 0.85;
     margin: 0 0 1rem 0;
   }
 
