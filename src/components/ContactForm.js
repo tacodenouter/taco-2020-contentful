@@ -21,7 +21,7 @@ const Form = styled.form`
     font-size: inherit;
     border: none;
     outline: none;
-    background: ${props => props.theme.colors.tertiary};
+    background: ${props => props.theme.colors.white};
     color: ${props => props.theme.colors.base};
     border-radius: 2px;
     padding: 1em;
@@ -238,7 +238,7 @@ class ContactForm extends React.Component {
 
         <Modal visible={this.state.showModal}>
           <p>
-            Thank you for reaching out. I will get back to you as soon as
+            Thank you for getting in touch. 🥳 I will get back to you as soon as
             possible.
           </p>
           <Button onClick={this.closeModal}>Okay</Button>

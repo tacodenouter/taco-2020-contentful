@@ -90,7 +90,6 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
-    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     font-weight: 400;
     font-size: 1.2rem;
     font-family: 'Fabrikat-Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -105,9 +104,15 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h1.home {
-    font-size: 9em;
+    font-size: 12em;
     color: #ffb2e4;
   }
+
+  @media only screen and (max-width: 768px) {
+  h1.home {
+    font-size: 9em;
+  }
+}
 
   h2 {
     font-family: 'Gopher-Medium';
@@ -131,6 +136,13 @@ const GlobalStyle = createGlobalStyle`
     display: block;
   	width: 100%;
   	height: auto;
+  }
+
+  :not(pre) > code[class*="language-"] {
+    font-size: 0.8em;
+    font-family: 'Courier', 'Andale Mono', 'Ubuntu Mono', monospace;
+    background: white !important;
+    text-shadow: none;
   }
 
   button,

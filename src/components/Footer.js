@@ -8,7 +8,7 @@ const Wrapper = styled.footer`
   align-items: flex-start;
   margin: 0 auto;
   max-width: 100%;
-  background: ${props => props.theme.colors.white};
+  background: ${props => props.theme.colors.bgDarker};
   margin-top: 60px;
 `
 
@@ -54,28 +54,22 @@ const Footer = () => (
           target="_blank"
         >
           <img
-            src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
+            src="../logos/logo.svg"
+            style={{ width: '60px' }}
+            alt="Taco den Outer"
           />
         </a>
       </Item>
       <Item>
+        I've used{' '}
         <a
           href="https://github.com/ryanwiemer/gatsby-starter-gcn"
           target="_blank"
           rel="noopener noreferrer"
         >
-          gatsby-starter-gcn
+           this excellent Gatsby starter
         </a>{' '}
-        by{' '}
-        <a
-          href="https://github.com/ryanwiemer"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @ryanwiemer
-        </a>
+        for this site.
       </Item>
     </List>
   </Wrapper>

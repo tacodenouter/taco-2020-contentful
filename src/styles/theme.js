@@ -5,6 +5,7 @@ const theme = {
     lightGrey: 'rgba(0,0,0,0.15)',
     secondary: '#ffc52a', // Orange
     tertiary: '#f1f0ea', // Background 
+    bgDarker: '#e8e6d8', // Background, but a bit darker
     highlight: '#5b8bf7', // Light Blue
     white: '#fff',
     menu: '#ffb2e4', // Pink

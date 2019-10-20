@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const Header = styled.header`
-  background: ${props => props.theme.colors.menu};
+  background: ${props => props.theme.colors.white};
   width: 100%;
   padding: 1.5em 0;
 

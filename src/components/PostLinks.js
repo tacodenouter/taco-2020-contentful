@@ -15,10 +15,11 @@ const Box = styled.div`
   width: 100%;
   max-width: ${props => props.theme.sizes.maxWidthCentered};
   a {
-    background: ${props => props.theme.colors.base};
-    color: white;
+    background: none;
+    color: ${props => props.theme.colors.highlight};
     padding: 1em 1.6em .9em 1.6em;;
     border-radius: 6px;
+    border: 1px solid ${props => props.theme.colors.highlight};
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-size: .9rem;
@@ -26,6 +27,7 @@ const Box = styled.div`
     transition: 0.2s;
     &:hover {
       background: ${props => props.theme.colors.highlight};
+      color: ${props => props.theme.colors.white};
     }
   }
 `
