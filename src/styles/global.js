@@ -123,17 +123,11 @@ const GlobalStyle = createGlobalStyle`
     0% {
       color: #ffb2e4;
     }     
-    20% {
+    25% {
       color: #5b8bf7;
     }
-    40% { 
+    50% { 
       color: #4c00ff;
-    }
-    60% { 
-      color: #d921f9;
-    }
-    80% { 
-      color: #2980b9;
     }
     100% { 
       color: #ffb2e4;
@@ -156,6 +150,16 @@ const GlobalStyle = createGlobalStyle`
     font-size: 0.7em;
     text-transform: uppercase;
     letter-spacing: 0.09em;
+  }
+
+  p {
+    line-height: 1.6;
+    margin: 0 0 2em 0;
+    font-weight: 400;
+  }
+
+  p.center {
+    text-align: center;
   }
 
   img {

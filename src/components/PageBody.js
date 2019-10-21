@@ -13,12 +13,6 @@ const Body = styled.div`
     margin: 0 0 1rem 0;
   }
 
-  p {
-    color: ${props => props.theme.colors.base};
-    line-height: 1.6;
-    margin: 0 0 2em 0;
-    font-weight: 400;
-  }
 
   a {
     transition: 0.2s;

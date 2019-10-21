@@ -7,6 +7,7 @@ import PageTitle from '../components/PageTitle'
 import ContactForm from '../components/ContactForm'
 import SEO from '../components/SEO'
 
+
 const Contact = ({ data }) => {
   const postNode = {
     title: `Contact - ${config.siteTitle}`,
@@ -21,6 +22,7 @@ const Contact = ({ data }) => {
 
       <Container>
         <PageTitle>Contact</PageTitle>
+        <p className="center">Let's talk if you have an idea for a service or app, or need help connecting better with your users.<br />Great design can come a long way!</p>
         <ContactForm />
       </Container>
     </Layout>
