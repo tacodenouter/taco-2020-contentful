@@ -14,7 +14,6 @@ const Index = ({ data, pageContext }) => {
   const featuredPost = posts[0].node
   const { currentPage } = pageContext
   const isFirstPage = currentPage === 1
-
   
   return (
     <Layout>
@@ -26,6 +25,8 @@ const Index = ({ data, pageContext }) => {
       )}
       <Container>
         <h1 className="home awesome">Hello!<br />I am a digital designer</h1>
+        <h3 className="home">Flows & prototypes through to design systems</h3>
+        <p className="home">I create user journeys and high-fidelity prototypes so businesses can make informed and testable design decisions. I then help scale the company by codifying the established design system as well as smoothing the design processes needed to expand confidently.</p>
         {isFirstPage ? (
           <CardList>
             <Card {...featuredPost} featured />

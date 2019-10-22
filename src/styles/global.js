@@ -106,6 +106,7 @@ const GlobalStyle = createGlobalStyle`
   h1.home {
     font-size: 12em;
     color: #ffb2e4;
+    padding-bottom: .2em;
   }
 
   @media only screen and (max-width: 768px) {
@@ -117,6 +118,16 @@ const GlobalStyle = createGlobalStyle`
   h1.awesome {
     color: #ffb2e4;
     -webkit-animation: colorchange 20s infinite alternate;      
+  }
+
+  h3.home, p.home {
+    padding-right: 20%;
+  }
+
+  @media screen and (max-width: 768px) {
+    h3.home, p.home {
+      padding-right: 0;
+    }
   }
 
   @-webkit-keyframes colorchange {
@@ -143,7 +154,9 @@ const GlobalStyle = createGlobalStyle`
   h3 {
     font-family: 'Gopher-Medium';
     font-size: 1.6em;
+    line-height: 1.3;
     font-weight: 700;
+    padding-bottom: .7em;
   }
 
   h6 {

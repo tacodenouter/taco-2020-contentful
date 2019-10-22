@@ -13,7 +13,6 @@ const Body = styled.div`
     margin: 0 0 1rem 0;
   }
 
-
   a {
     transition: 0.2s;
     text-decoration: none;
