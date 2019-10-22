@@ -147,7 +147,7 @@ const GlobalStyle = createGlobalStyle`
 
   h2 {
     font-family: 'Gopher-Medium';
-    font-size: 2em;
+    font-size: 3.2em;
     font-weight: 700;
   }
 
