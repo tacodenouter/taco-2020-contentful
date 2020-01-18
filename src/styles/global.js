@@ -169,6 +169,7 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.6;
     margin: 0 0 2em 0;
     font-weight: 400;
+    font-size: 1.1em;
   }
 
   p.center {

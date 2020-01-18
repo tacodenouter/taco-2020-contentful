@@ -8,9 +8,11 @@ const Body = styled.div`
 
   h1,
   h2 {
-    font-weight: 300;
-    line-height: 0.85;
+    font-family: 'Fractul-Bold', sans-serif;
+    font-size: 3.5em;
+    line-height: 1;
     margin: 0 0 1rem 0;
+    text-transform: none;
   }
 
   a {

@@ -4,5 +4,12 @@
 
 @font-face {font-family: 'NeumaticCompressed-Bold';src: url('../fonts/39F4B2_1_0.eot');src: url('../fonts/39F4B2_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/39F4B2_1_0.woff2') format('woff2'),url('../fonts/39F4B2_1_0.woff') format('woff'),url('../fonts/39F4B2_1_0.ttf') format('truetype');}
 
-
 @font-face {font-family: 'Recoleta-RegularDEMO';src: url('../fonts/39F5DC_0_0.eot');src: url('../fonts/39F5DC_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/39F5DC_0_0.woff2') format('woff2'),url('../fonts/39F5DC_0_0.woff') format('woff'),url('../fonts/39F5DC_0_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Fractul-Regular';src: url('../fonts/3AC142_0_0.eot');src: url('../fonts/3AC142_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3AC142_0_0.woff2') format('woff2'),url('../fonts/3AC142_0_0.woff') format('woff'),url('../fonts/3AC142_0_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Fractul-Italic';src: url('../fonts/3AC142_1_0.eot');src: url('../fonts/3AC142_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3AC142_1_0.woff2') format('woff2'),url('../fonts/3AC142_1_0.woff') format('woff'),url('../fonts/3AC142_1_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Fractul-Bold';src: url('../fonts/3AC142_2_0.eot');src: url('../fonts/3AC142_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3AC142_2_0.woff2') format('woff2'),url('../fonts/3AC142_2_0.woff') format('woff'),url('../fonts/3AC142_2_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Fractul-BoldItalic';src: url('../fonts/3AC142_3_0.eot');src: url('../fonts/3AC142_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3AC142_3_0.woff2') format('woff2'),url('../fonts/3AC142_3_0.woff') format('woff'),url('../fonts/3AC142_3_0.ttf') format('truetype');}
