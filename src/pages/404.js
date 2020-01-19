@@ -17,12 +17,13 @@ const Text = styled.p`
 const NotFoundPage = () => (
   <Layout>
     <Helmet>
-      <title>404 - Page Not Found</title>
+      <title>404 - Page not found</title>
       <meta name="description" content="Page not found" />
     </Helmet>
 
     <Container>
-      <PageTitle>Page Not Found</PageTitle>
+      <img src="../images/On_A_Computer.png" alt="Oh no! Computer says no" />
+      <PageTitle>Page not found</PageTitle>
       <Text>
         Please return <Link to="/">home</Link> or use the menu to navigate to a
         different page.
