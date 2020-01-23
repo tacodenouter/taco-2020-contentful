@@ -132,11 +132,11 @@ class SEO extends Component {
         <meta property="og:title" content={title} />
         {postSEO ? <meta property="og:type" content="article" /> : null}
 
-        <meta property="og:url" content={pageUrl} />
-        <meta property="og:image" content={'https://www.tacodenouter.com/logos/share.jpg'} />
+        <meta property="og:url" content= "https://www.tacodenouter.com" />
+        <meta property="og:image" content= "https://www.tacodenouter.com/images/share.jpg" />
         <meta property="og:image:width" content={imgWidth} />
         <meta property="og:image:height" content={imgHeight} />
-        <meta property="og:description" content={description} />
+        <meta property="og:description" content= "Flows & prototypes through to design systems. I create user journeys and high-fidelity prototypes so businesses can make informed and testable design decisions. I then help scale the company by codifying the established design system as well as smoothing the design processes needed to expand confidently." />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
