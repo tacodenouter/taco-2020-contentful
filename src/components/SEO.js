@@ -133,7 +133,7 @@ class SEO extends Component {
         {postSEO ? <meta property="og:type" content="article" /> : null}
 
         <meta property="og:url" content={pageUrl} />
-        <meta property="og:image" content={image} />
+        <meta property="og:image" content={'https://www.tacodenouter.com/logos/share.jpg'} />
         <meta property="og:image:width" content={imgWidth} />
         <meta property="og:image:height" content={imgHeight} />
         <meta property="og:description" content={description} />
