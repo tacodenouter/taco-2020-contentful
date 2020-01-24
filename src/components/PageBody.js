@@ -15,6 +15,12 @@ const Body = styled.div`
     text-transform: none;
   }
 
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+    }
+  }
+
   a {
     transition: 0.2s;
     text-decoration: none;

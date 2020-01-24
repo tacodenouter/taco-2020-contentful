@@ -67,11 +67,11 @@ const Menu = () => {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/services/" activeStyle={activeLinkStyle}>
               Services
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/contact/" activeStyle={activeLinkStyle}>
               Contact
