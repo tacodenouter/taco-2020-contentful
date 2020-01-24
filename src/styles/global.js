@@ -111,7 +111,7 @@ const GlobalStyle = createGlobalStyle`
 
   @media only screen and (max-width: 768px) {
     h1.home {
-      font-size: 2em;
+      font-size: 9em;
     }
   }
 

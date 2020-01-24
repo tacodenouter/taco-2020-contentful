@@ -8,7 +8,7 @@ const Wrapper = styled.footer`
   align-items: flex-start;
   margin: 0 auto;
   max-width: 100%;
-  background: ${props => props.theme.colors.bgDarker};
+  background: ${props => props.theme.colors.bgFooter};
   margin-top: 60px;
 `
 
@@ -20,6 +20,7 @@ const List = styled.ul`
   width: 100%;
   padding: 1em 0 2em;
   margin: 0 1.5em;
+  color: ${props => props.theme.colors.highlight};
 `
 
 const Item = styled.li`
@@ -34,12 +35,9 @@ const Item = styled.li`
     font-weight: 600;
     transition: all 0.2s;
     text-decoration: none;
-    color: ${props => props.theme.colors.base};
+    color: ${props => props.theme.colors.highlight};
     &:hover {
-      color: ${props => props.theme.colors.highlight};
-    }
-    &:visited {
-      color: ${props => props.theme.colors.base};
+      color: ${props => props.theme.colors.menu};
     }
   }
 `
@@ -54,7 +52,7 @@ const Footer = () => (
           target="_blank"
         >
           <img
-            src="../logos/logo.svg"
+            src="../logos/logo-colour.svg"
             style={{ width: '60px' }}
             alt="Taco den Outer"
           />

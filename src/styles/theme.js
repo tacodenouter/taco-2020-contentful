@@ -11,6 +11,7 @@ const theme = {
     highlight: '#5b8bf7', // Light Blue
     white: '#fff',
     menu: '#ffb2e4', // Pink
+    bgFooter: '#0014a2',
   },
   sizes: {
     maxWidth: '1100px',
