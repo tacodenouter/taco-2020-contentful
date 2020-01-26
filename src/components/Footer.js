@@ -52,7 +52,7 @@ const Footer = () => (
           target="_blank"
         >
           <img
-            src="../logos/logo-colour.svg"
+            src="https://www.tacodenouter.com/logos/logo-colour.svg"
             style={{ width: '60px' }}
             alt="Taco den Outer"
           />

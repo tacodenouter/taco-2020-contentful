@@ -22,7 +22,7 @@ const NotFoundPage = () => (
     </Helmet>
 
     <Container>
-      <img src="https://www.tacodenouter.com/images/On_A_Computer.png" alt="Oh no! Computer says no" />
+      <img src="https://images.ctfassets.net/tqzzgau2w222/4sXxSTSaM32j2PhhPYRJ2y/dee5ef9bf11d6fd1e82465c9797b5b47/On_A_Computer.png" alt="Oh no! Computer says no" />
       <PageTitle>Page not found</PageTitle>
       <Text>
         Please return <Link to="/">home</Link> or use the menu to navigate to a
