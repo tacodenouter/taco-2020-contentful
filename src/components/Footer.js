@@ -59,6 +59,12 @@ const Footer = () => (
         </a>
       </Item>
       <Item>
+        Check my <a
+          href="https://www.tacodenouter.com/cv"
+          rel="nofollow noopener noreferrer"
+        >work history here</a>
+      </Item>
+      <Item>
         I've used{' '}
         <a
           href="https://github.com/ryanwiemer/gatsby-starter-gcn"
