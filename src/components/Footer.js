@@ -59,21 +59,10 @@ const Footer = () => (
         </a>
       </Item>
       <Item>
-        Check my <a
+        <a
           href="https://tacodenouter-2018.netlify.app"
           rel="nofollow noopener noreferrer"
-        >work history here</a>
-      </Item>
-      <Item>
-        I've used{' '}
-        <a
-          href="https://github.com/ryanwiemer/gatsby-starter-gcn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-           this excellent Gatsby starter
-        </a>{' '}
-        for this site.
+        >👋Check out my work experience and history</a>
       </Item>
     </List>
   </Wrapper>
