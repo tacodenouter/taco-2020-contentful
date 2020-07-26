@@ -60,7 +60,7 @@ const Footer = () => (
       </Item>
       <Item>
         Check my <a
-          href="https://www.tacodenouter.com/cv"
+          href="https://tacodenouter-2018.netlify.app"
           rel="nofollow noopener noreferrer"
         >work history here</a>
       </Item>
