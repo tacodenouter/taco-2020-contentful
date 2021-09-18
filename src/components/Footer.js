@@ -60,9 +60,9 @@ const Footer = () => (
       </Item>
       <Item>
         <a
-          href="https://tacodenouter-2018.netlify.app"
+          href="https://tacodenouter-cv.netlify.app"
           rel="nofollow noopener noreferrer"
-        >👋Check out my work experience and history</a>
+        >👋 Check out my work experience and history</a>
       </Item>
     </List>
   </Wrapper>

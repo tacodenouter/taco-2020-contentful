@@ -12,7 +12,7 @@ const Wrapper = styled.div`
     font-size: .8em;
     text-transform: none;
     letter-spacing: 0;
-    color: ${props => props.theme.colors.secondary};
+    color: ${props => props.theme.colors.black};
     text-align: center;
     padding: 40px 0;
     margin-top: 40px;
