@@ -27,6 +27,7 @@ const Index = ({ data, pageContext }) => {
         <h1 className="home awesome">Hello! I am a Digital Design Lead</h1>
         <h3 className="home">Flows & prototypes through to design systems</h3>
         <p className="home">I create user journeys and high-fidelity prototypes so businesses can make informed and testable design decisions. I then help scale the company by codifying the established design system as well as smoothing the design processes needed to expand confidently.</p>
+        <p>I work for a unicorn with over 3m paying customers. Within the last two years the design team has grown from just three people to over 18 and counting. I manage Visual, UX and Motion Designers at several levels and in several time zones.</p>
         {isFirstPage ? (
           <CardList>
             <Card {...featuredPost} featured />
